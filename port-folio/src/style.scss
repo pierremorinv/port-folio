@@ -1,0 +1,16 @@
+body {
+  background-color: rgb(89, 177, 136);
+  color: beige;
+  a {
+    color: beige;
+    text-decoration: none;
+  }
+  ul {
+    margin-right: 10px;
+    display: flex;
+    li {
+      list-style: none;
+      margin-left: 15px;
+    }
+  }
+}

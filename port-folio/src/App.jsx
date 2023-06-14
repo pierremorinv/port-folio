@@ -1,8 +1,15 @@
+import Footer from "./components/Footer";
+import Header from "./components/Header";
+import Routes from "./components/Routes";
 import "./style.scss";
 function App() {
   return (
     <div className="App">
-      <header className="App-header">Mon port folio </header>
+      <main>
+        <Header />
+        <Routes />
+        <Footer />
+      </main>
     </div>
   );
 }
