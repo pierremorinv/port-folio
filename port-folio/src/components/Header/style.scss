@@ -1,5 +1,12 @@
 header {
+  align-items: center;
   display: flex;
   justify-content: space-between;
   border-bottom: 3px solid beige;
+
+  ul {
+    li {
+      font-size: large;
+    }
+  }
 }

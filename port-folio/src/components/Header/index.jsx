@@ -5,7 +5,7 @@ import NavBar from "../NavBar";
 const Header = () => {
   return (
     <header>
-      <p>photo de moi</p>
+      <h1>Pierre Morin</h1>
       <NavBar />
     </header>
   );

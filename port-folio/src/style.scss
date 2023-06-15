@@ -1,6 +1,9 @@
+$primary-color: rgb(89, 177, 136);
+$secondary_color: beige;
 body {
-  background-color: rgb(89, 177, 136);
-  color: beige;
+  margin: 0%;
+  background-color: $primary-color;
+  color: $secondary_color;
   a {
     color: beige;
     text-decoration: none;
@@ -11,6 +14,9 @@ body {
     li {
       list-style: none;
       margin-left: 15px;
+    }
+    main {
+      width: 90%;
     }
   }
 }

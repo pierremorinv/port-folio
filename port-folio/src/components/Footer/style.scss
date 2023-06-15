@@ -1,0 +1,24 @@
+@import "../../style.scss";
+footer {
+  width: 100%;
+  background-color: $secondary_color;
+
+  padding-top: 50px;
+  padding-bottom: 50px;
+  .footer-ul {
+    justify-content: space-around;
+    .footer-li {
+      border: 1px solid $primary-color;
+      background-color: $primary-color;
+      padding: 15px;
+      border-radius: 35px;
+      -webkit-border-radius: 35px;
+      -moz-border-radius: 35px;
+      -ms-border-radius: 35px;
+      -o-border-radius: 35px;
+      a {
+        color: $secondary_color;
+      }
+    }
+  }
+}
