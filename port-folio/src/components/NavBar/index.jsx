@@ -5,14 +5,16 @@ import "./style.scss";
 const NavBar = () => {
   return (
     <>
-      <ul>
+      <ul className="nav-bar">
         <li>
           <Link to={"/"}>Home</Link>
         </li>
-
         <li>
-          <Link to={"/cv"}>Mon CV</Link>
+          <Link to={"/Projects"}>Mes projects</Link>
         </li>
+        <li>
+          <Link to={"/contact"}>Contact</Link>
+        </li>{" "}
         <li>
           <Link to={"/about"}>about</Link>
         </li>

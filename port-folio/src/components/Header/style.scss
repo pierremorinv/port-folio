@@ -1,8 +1,11 @@
 header {
+  border-bottom: 3px solid beige;
   align-items: center;
   display: flex;
   justify-content: space-between;
-  border-bottom: 3px solid beige;
+  h1 {
+    align-items: center;
+  }
 
   ul {
     li {

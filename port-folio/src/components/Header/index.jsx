@@ -5,7 +5,7 @@ import NavBar from "../NavBar";
 const Header = () => {
   return (
     <header>
-      <h1>Pierre Morin</h1>
+      <h1>Pierre Morin </h1>
       <NavBar />
     </header>
   );
